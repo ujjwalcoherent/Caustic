@@ -23,7 +23,7 @@ const SAMPLE_DISTRIBUTORS: Distributor[] = [
     id: 1,
     companyName: 'Brenntag South Africa',
     headquartersLocation: 'Johannesburg, South Africa',
-    coreProductPortfolio: 'Activated Carbon, Flocculants, Coagulants, Lime Products',
+    coreProductPortfolio: 'Caustic Soda, Flocculants, Coagulants, Lime Products',
     ownershipType: 'Subsidiary',
     decisionMaker: { name: 'Pieter van der Merwe', designation: 'Regional Director', email: 'p.vandermerwe@brenntag.co.za', phone: '+27 11 494 4200', linkedin: 'linkedin.com/in/pietermerwe' }
   },
@@ -31,7 +31,7 @@ const SAMPLE_DISTRIBUTORS: Distributor[] = [
     id: 2,
     companyName: 'AECI Mining Chemicals',
     headquartersLocation: 'Johannesburg, South Africa',
-    coreProductPortfolio: 'Activated Carbon, Cyanide, Flotation Reagents, Flocculants',
+    coreProductPortfolio: 'Caustic Soda, Cyanide, Flotation Reagents, Flocculants',
     ownershipType: 'Public',
     decisionMaker: { name: 'Sipho Mabena', designation: 'GM - Mining Chemicals', email: 's.mabena@aeci.co.za', phone: '+27 11 806 8700', linkedin: 'linkedin.com/in/siphomabena' }
   },
@@ -39,7 +39,7 @@ const SAMPLE_DISTRIBUTORS: Distributor[] = [
     id: 3,
     companyName: 'Chemimpo Ghana Ltd.',
     headquartersLocation: 'Accra, Ghana',
-    coreProductPortfolio: 'Activated Carbon, Mining Reagents, Water Treatment Chemicals',
+    coreProductPortfolio: 'Caustic Soda, Mining Reagents, Water Treatment Chemicals',
     ownershipType: 'Private',
     decisionMaker: { name: 'Emmanuel Owusu', designation: 'Managing Director', email: 'e.owusu@chemimpo.gh', phone: '+233 30 278 0400', linkedin: 'linkedin.com/in/emmanuelowusu' }
   },
@@ -47,7 +47,7 @@ const SAMPLE_DISTRIBUTORS: Distributor[] = [
     id: 4,
     companyName: 'Univar Solutions Africa',
     headquartersLocation: 'Cape Town, South Africa',
-    coreProductPortfolio: 'Activated Carbon, Specialty Chemicals, Water Treatment Solutions',
+    coreProductPortfolio: 'Caustic Soda, Specialty Chemicals, Water Treatment Solutions',
     ownershipType: 'Subsidiary',
     decisionMaker: { name: 'Linda Naidoo', designation: 'Sales Director - Africa', email: 'l.naidoo@univar.co.za', phone: '+27 21 929 6500', linkedin: 'linkedin.com/in/lindanaidoo' }
   },
@@ -55,7 +55,7 @@ const SAMPLE_DISTRIBUTORS: Distributor[] = [
     id: 5,
     companyName: 'Axis House (Pty) Ltd.',
     headquartersLocation: 'Johannesburg, South Africa',
-    coreProductPortfolio: 'Granular & Powdered Activated Carbon, Gold Elution Chemicals',
+    coreProductPortfolio: 'Caustic Soda Flakes & Pearls, Gold Elution Chemicals',
     ownershipType: 'Private',
     decisionMaker: { name: 'Craig Williams', designation: 'Technical Sales Manager', email: 'c.williams@axishouse.co.za', phone: '+27 11 463 4888', linkedin: 'linkedin.com/in/craigwilliams' }
   },
@@ -63,7 +63,7 @@ const SAMPLE_DISTRIBUTORS: Distributor[] = [
     id: 6,
     companyName: 'Protea Chemicals (Omnia)',
     headquartersLocation: 'Johannesburg, South Africa',
-    coreProductPortfolio: 'Activated Carbon, Mining Chemicals, Agricultural Chemicals',
+    coreProductPortfolio: 'Caustic Soda, Mining Chemicals, Agricultural Chemicals',
     ownershipType: 'Subsidiary',
     decisionMaker: { name: 'Ravi Patel', designation: 'Head of Mining Division', email: 'r.patel@omnia.co.za', phone: '+27 11 709 8888', linkedin: 'linkedin.com/in/ravipatel' }
   },
@@ -71,7 +71,7 @@ const SAMPLE_DISTRIBUTORS: Distributor[] = [
     id: 7,
     companyName: 'Mintek Chemical Services',
     headquartersLocation: 'Randburg, South Africa',
-    coreProductPortfolio: 'Activated Carbon Testing & Supply, Mineral Processing Chemicals',
+    coreProductPortfolio: 'Caustic Soda Testing & Supply, Mineral Processing Chemicals',
     ownershipType: 'Public',
     decisionMaker: { name: 'Dr. Nomsa Dlamini', designation: 'Chief Scientist', email: 'n.dlamini@mintek.co.za', phone: '+27 11 709 4111', linkedin: 'linkedin.com/in/nomsadlamini' }
   },
@@ -79,15 +79,15 @@ const SAMPLE_DISTRIBUTORS: Distributor[] = [
     id: 8,
     companyName: 'Carbon Activated Corporation (Russia)',
     headquartersLocation: 'Moscow, Russia',
-    coreProductPortfolio: 'Coal-Based AC, Bituminous AC, Water Purification Carbons',
+    coreProductPortfolio: 'Caustic Soda Flakes, Industrial Grade, Water Treatment Chemicals',
     ownershipType: 'Private',
     decisionMaker: { name: 'Dmitri Volkov', designation: 'Director of Sales', email: 'd.volkov@carbonactivated.ru', phone: '+7 495 258 6300', linkedin: 'linkedin.com/in/dmitrivolkov' }
   },
   {
     id: 9,
-    companyName: 'Activated Carbon Technologies (ACT)',
+    companyName: 'Caustic Soda Technologies (CST)',
     headquartersLocation: 'Melbourne, Australia',
-    coreProductPortfolio: 'Coconut Shell AC, Granular AC, Reactivation Services',
+    coreProductPortfolio: 'Caustic Soda Pearls, High Purity Grade, Alkali Solutions',
     ownershipType: 'Private',
     decisionMaker: { name: 'Mark Thompson', designation: 'CEO', email: 'm.thompson@act.com.au', phone: '+61 3 9874 5200', linkedin: 'linkedin.com/in/markthompson' }
   },
@@ -95,7 +95,7 @@ const SAMPLE_DISTRIBUTORS: Distributor[] = [
     id: 10,
     companyName: 'West African Chemical Industries',
     headquartersLocation: 'Abidjan, Côte d\'Ivoire',
-    coreProductPortfolio: 'Activated Carbon, Mining Reagents, Industrial Chemicals',
+    coreProductPortfolio: 'Caustic Soda, Mining Reagents, Industrial Chemicals',
     ownershipType: 'Private',
     decisionMaker: { name: 'Ousmane Traoré', designation: 'General Manager', email: 'o.traore@waci.ci', phone: '+225 27 20 3200', linkedin: 'linkedin.com/in/ousmanetraore' }
   },
@@ -103,7 +103,7 @@ const SAMPLE_DISTRIBUTORS: Distributor[] = [
     id: 11,
     companyName: 'DRA Global (Mining Services)',
     headquartersLocation: 'Johannesburg, South Africa',
-    coreProductPortfolio: 'Activated Carbon Solutions, Gold Processing, EPC Services',
+    coreProductPortfolio: 'Caustic Soda Solutions, Gold Processing, EPC Services',
     ownershipType: 'Public',
     decisionMaker: { name: 'Michael O\'Brien', designation: 'VP Chemical Supply', email: 'm.obrien@draglobal.com', phone: '+27 11 202 8600', linkedin: 'linkedin.com/in/michaelobrien' }
   },
@@ -111,7 +111,7 @@ const SAMPLE_DISTRIBUTORS: Distributor[] = [
     id: 12,
     companyName: 'Sahel Mining Chemicals SARL',
     headquartersLocation: 'Bamako, Mali',
-    coreProductPortfolio: 'Activated Carbon, Cyanide, Lime, Flotation Chemicals',
+    coreProductPortfolio: 'Caustic Soda, Cyanide, Lime, Flotation Chemicals',
     ownershipType: 'Private',
     decisionMaker: { name: 'Moussa Keita', designation: 'Operations Director', email: 'm.keita@sahelchem.ml', phone: '+223 20 22 6700', linkedin: 'linkedin.com/in/moussakeita' }
   },

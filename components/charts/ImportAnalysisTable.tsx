@@ -207,7 +207,7 @@ const ALL_IMPORT_DATA: GeographyImports[] = [
       'Australia\'s AC imports are driven by Newcrest Mining, Northern Star, and Evolution Mining gold operations, plus extensive municipal water treatment.',
       'Proximity to Asia-Pacific suppliers gives China and India freight cost advantages, with combined import share exceeding 60%.',
       'Philippines-sourced coconut shell AC is gaining traction due to quality consistency and competitive pricing for gold recovery applications.',
-      'Australia has domestic AC reactivation capacity (Activated Carbon Technologies), partially offsetting virgin AC import requirements by ~20%.',
+      'Australia has domestic caustic soda production capacity (Caustic Soda Technologies), partially offsetting import requirements by ~20%.',
     ],
   },
 ]

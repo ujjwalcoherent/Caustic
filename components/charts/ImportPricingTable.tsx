@@ -218,7 +218,7 @@ const ALL_PRICING_DATA: GeographyPricing[] = [
     trends: [
       'Philippines-sourced coconut shell AC offers the best value at ~$3,060/Ton, benefiting from short Manila-Sydney shipping routes (~14 days).',
       'Australian importers face minimal logistics premiums due to efficient port infrastructure and proximity to Asia-Pacific production centers.',
-      'Domestic AC reactivation (Activated Carbon Technologies) offers recycled product at ~$2,200-2,500/Ton, creating strong competitive pressure on imported virgin AC.',
+      'Domestic caustic soda production (Caustic Soda Technologies) offers local product at competitive pricing, creating pressure on imported caustic soda.',
       'Japan and US premium pricing ($3,710-3,740/Ton) is justified for Newcrest and Northern Star\'s high-grade CIL circuits requiring consistent carbon activity levels.',
     ],
   },
