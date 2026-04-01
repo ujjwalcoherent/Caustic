@@ -7,7 +7,7 @@ for (let y = 2021; y <= 2033; y++) years.push(String(y));
 const geographies = [
   "South Africa", "Ghana", "Mali", "Burkina Faso", "Tanzania",
   "Côte d'Ivoire", "Zimbabwe", "Democratic Republic of the Congo",
-  "Guinea", "Sudan", "Russia", "Australia"
+  "Guinea", "Sudan", "Russia", "Australia", "Mauritania"
 ];
 
 // Market size multipliers per country (relative scale)
@@ -23,7 +23,8 @@ const countryScale = {
   "Guinea": 0.22,
   "Sudan": 0.25,
   "Russia": 0.90,
-  "Australia": 0.85
+  "Australia": 0.85,
+  "Mauritania": 0.20
 };
 
 // Seeded pseudo-random (simple deterministic)
@@ -173,7 +174,7 @@ console.log('Generated value.json and volume.json');
 function verify(data, label) {
   const geos = Object.keys(data);
   console.log(`\n${label}: ${geos.length} geographies`);
-  if (geos.length !== 12) console.log('  ERROR: expected 12 geographies');
+  if (geos.length !== 13) console.log('  ERROR: expected 13 geographies');
 
   for (const geo of geos) {
     const segments = data[geo];

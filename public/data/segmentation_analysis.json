@@ -298,5 +298,30 @@
       "Refining / Metallurgical Processing": {},
       "Water Treatment / Effluent Management": {}
     }
+  },
+  "Mauritania": {
+    "By Product Form": {
+      "Caustic Soda Flakes": {},
+      "Caustic Soda Pearls": {}
+    },
+    "By Purity / Grade": {
+      "Standard Industrial Grade": {},
+      "High Purity Grade": {},
+      "Technical / Mining Grade": {}
+    },
+    "By Application": {
+      "Gold Ore Processing": {},
+      "pH Control and Alkalinity Regulation": {},
+      "Cyanide Leaching Support": {},
+      "Metal Recovery / Refining": {},
+      "Water and Effluent Treatment": {},
+      "Other Mining-Related Applications": {}
+    },
+    "By End-Use Stage in Gold Mining": {
+      "Ore Preparation and Processing": {},
+      "Leaching and Recovery Circuits": {},
+      "Refining / Metallurgical Processing": {},
+      "Water Treatment / Effluent Management": {}
+    }
   }
 }
